@@ -85,7 +85,15 @@
   .heart .coin .count .countH {
     font-weight: bold;
   }
+
+  .heart:hover{
+    background: #ccf3db;
+  }
   
+  .coin:hover{
+    background: #ccf3db;
+  }
+
   .copy-btn {
     background: #28a745;
     color: white;
@@ -226,11 +234,20 @@
   .btn.copy {
     background: #f1f1f1;
   }
+
+  .btn.copy:hover {
+    background: #d0d0d0;
+  }
   
   .btn.call {
     background: #28a745;
     color: white;
   }
+
+  .btn.call:hover {
+    background: #218838;
+  }
+
   
   /* Right side - call history */
   .history-section {
@@ -260,6 +277,10 @@
     border-radius: 30px;
     cursor: pointer;
     font-size: 14px;
+  }
+
+  .clear-btn:hover {
+    background: #218838;
   }
   
   .call-list {
